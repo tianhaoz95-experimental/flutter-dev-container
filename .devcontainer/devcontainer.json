@@ -1,0 +1,13 @@
+{
+	"name": "Flutter Dev",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"settings": {},
+	"runArgs": [
+		"--network",
+		"host"
+	],
+	"extensions": ["dart-code.dart-code", "dart-code.flutter"],
+	"remoteUser": "developer"
+}
